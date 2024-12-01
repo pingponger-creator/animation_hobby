@@ -1,15 +1,17 @@
 .box {
     height: 200px;
     width: 100px;
-    background-color: #FFF6E9 ;
+    /* background-color: #FFF6E9 ; */
+    background-color: rgb(219, 159, 85);
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     border-radius: 15px;
   
     transform: translate(400px);
     transform: scale(2);
-    box-shadow: 0px 0px 10px 6px #80C4E9;
+    box-shadow: 1px 1px 10px 6px #80C4E9;
 
 }
 
@@ -31,6 +33,7 @@ body {
     font-variant: small-caps;
     font-stretch: extra-expanded;
     display: flex;
+    
     /* gap: 4px; */
 }
 
@@ -41,10 +44,10 @@ body {
     box-sizing: border-box;
 }
 
-/* .card-title:hover {
-    gap: 4px;
+.card-title:hover {
+    transform: translateX(10px);
     transition-duration: 10s;
-}  */
+} 
 
 /* Test this out later */
 
@@ -56,6 +59,18 @@ body {
     transition: 10s;
     
 }
+
+
+button {
+    font-size: 9px;
+    font-family: poppins;
+    font-variant: small-caps;
+    font-stretch: extra-condensed;
+    background-color: #FFF6E9;
+    border: none;
+
+}
+
 
 
 
